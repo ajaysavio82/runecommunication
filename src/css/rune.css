@@ -1,1 +1,108 @@
+body {background-color: #efe6d9;}
+.header {margin-top: 25px;background-color: #023992;border:2px solid #595959;}
+.hero{margin-bottom:100px; }
+@media screen and (min-width: 992px) {.header{height: 75px;}}
 
+
+.homepage-text {font: normal 1.5em Georgia;margin-left: 20%;margin-right: 20%;}
+.rune-page-content {font: normal 1.5em Georgia;}
+.rune-page-content h3 {font: bold 1.6em Georgia;color: #434343;}
+
+.homepage-text-b{padding: 50px 0;}
+
+
+
+@media (min-width: 992px) {
+  .navbar{margin:auto!important;}
+}
+@media (min-width: 768px) {
+  .navbar{margin:0;}
+}
+
+.rune-navbar{background: none!important;}
+.nav-item{margin:0 5px 0 5px!important;}
+.rune-navbar a{font: normal 1.7em 'Instrument Serif';color:#B6D7A8!important;text-decoration: none;}
+
+/*Dropdown CSS*/
+.dropdown a {background: none;border:none;}
+.dropdown a:hover {color:#e8f3e3!important;background: none;}
+.dropdown-menu{background-color: #023992;border:2px solid #595959;}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {background: none;border:none;}
+.btn-secondary{--bs-btn-padding-x: 0rem;--bs-btn-padding-y: 0rem;}
+@media (min-width: 768px) {
+  .dropdown{margin:0 5px 0 5px;}
+}
+.dropdown-item.active, .dropdown-item:active {background: none;}
+/*End Dropdown CSS*/
+
+/*Navbar mobile devices toggler color*/
+.navbar {--bs-navbar-toggler-icon-bg:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(182,215,168, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;}
+.navbar-toggler {border-color: rgb(182,215,168);color:rgb(182,215,168);}
+/*End Navbar mobile devices toggler color*/ 
+
+
+.rune-navbar a:hover{color:#e8f3e3!important;}
+
+@media screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 3px solid #B6D7A8;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .btn-secondary {
+    padding: 0 0.5em;
+    border-right: 3px solid #B6D7A8!important;
+  }
+}
+
+/*
+.navbar-nav > li > a {
+    position: relative;
+}
+*/
+
+.interested {margin-top: 50px;}
+.interested .btn-primary {font: normal 2em 'Instrument Serif';border:2px solid #595959;background-color: #023992;color: #B6D7A8;padding:5px 5px;}
+.interested .btn-primary:hover{color: white;}
+
+.homepage-logo{margin: 100px 0px 100px 0px;}
+
+
+.rune-title-image{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.image-line{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.line{
+    border-top: 5px solid #39711c;
+    margin-top: -90px;
+}
+
+
+.rune-page-title {color:#023992;font: normal 2.5em "Over The Rainbow";}
+
+.faq-list{list-style: none;}
+.faq-list::marker{content: "\2794";font-size: 1.3em;}
+.faq-list span{position: relative;left: 15px;}
+.faq-list-2{list-style: none;}
+.faq-list-3{list-style: none;}
+.faq-list-3::marker{content: "\25C6";font-size: 1em;}
+.faq-list-3 span{position: relative;left: 15px;}
+
+.wendy-image {margin-left: 100px;margin-bottom:100px;float: right!important;}
+@media (max-width: 768px) {
+  .wendy-image{margin-left:auto;float: none!important;}
+}
+
+
+.footer {margin-top: 50px;margin-bottom: 5px;background-color:#dbd3c6;font: normal 1em Georgia;padding:15px 0 15px 0;}
