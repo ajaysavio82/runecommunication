@@ -5,6 +5,10 @@ body {background-color: #efe6d9;}
 
 
 .homepage-text {font: normal 1.5em Georgia;margin-left: 20%;margin-right: 20%;}
+.homepage-text li {list-style: none;}
+.homepage-text li::marker{content: "\2756";font-size: 1.3em;}
+.homepage-text li>p{margin-left: 15px;}
+
 .rune-page-content {font: normal 1.5em Georgia;}
 .rune-page-content h3 {font: bold 1.6em Georgia;color: #434343;}
 
